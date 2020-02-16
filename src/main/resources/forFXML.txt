@@ -1,0 +1,1 @@
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml" fx:controller="com.appfx.vlad.controllers.MainViewController">

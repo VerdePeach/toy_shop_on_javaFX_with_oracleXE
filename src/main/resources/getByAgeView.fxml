@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<!--xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml"-->
+
+<VBox prefHeight="400" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml" fx:controller="com.appfx.vlad.controllers.GetByAgeViewController">
+  <children>
+    <AnchorPane maxHeight="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="170.0" layoutY="179.0" prefHeight="27.0" prefWidth="110.0" style="&#10;" text="End age" textAlignment="CENTER" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <Label alignment="CENTER" prefHeight="54.0" prefWidth="640.0" style="-fx-background-color: #337AB7;" text="Get toys in age diapason" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Cambria Italic" size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="showToyByAgeButton" layoutX="414.0" layoutY="349.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Show" AnchorPane.bottomAnchor="20.6" AnchorPane.rightAnchor="126.0" />
+            <Button fx:id="cancelButton" layoutX="526.0" layoutY="349.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Сancel" AnchorPane.bottomAnchor="20.600000000000023" AnchorPane.rightAnchor="14.0" />
+            <TextField fx:id="endAgeTextField" layoutX="320.0" layoutY="180.0" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="171.20000000000005" />
+            <Label alignment="CENTER" layoutX="170.0" layoutY="220.0" prefHeight="27.0" prefWidth="400.0" style="&#10;" text="All fields must be filled." textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="170.0" layoutY="138.0" prefHeight="27.0" prefWidth="110.0" style="&#10;" text="Start age" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="startAgeTextField" layoutX="320.0" layoutY="138.0" prefHeight="26.0" prefWidth="249.0" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="170.39999999999998" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

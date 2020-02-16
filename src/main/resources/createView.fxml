@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<!--xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml"-->
+
+<VBox prefHeight="400" prefWidth="740" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml" fx:controller="com.appfx.vlad.controllers.CreateViewController">
+  <children>
+    <AnchorPane maxHeight="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="171.0" layoutY="96.0" prefHeight="27.0" prefWidth="110.0" style="&#10;" text="Toy name" textAlignment="CENTER" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <Label alignment="CENTER" prefHeight="54.0" prefWidth="640.0" style="-fx-background-color: #337AB7;" text="Adding new toy" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Cambria Italic" size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="addNewToyButton" layoutX="414.0" layoutY="349.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Add" AnchorPane.bottomAnchor="20.6" AnchorPane.rightAnchor="126.0" />
+            <Button fx:id="cancelButton" layoutX="526.0" layoutY="349.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Сancel" AnchorPane.bottomAnchor="20.600000000000023" AnchorPane.rightAnchor="14.0" />
+            <TextField fx:id="toyNameTextField" layoutX="321.0" layoutY="97.0" AnchorPane.leftAnchor="321.0" AnchorPane.rightAnchor="170.2" />
+            <Label alignment="CENTER" layoutX="171.0" layoutY="217.0" prefHeight="27.0" prefWidth="110.0" style="&#10;" text="Strart age" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="171.0" layoutY="177.0" prefHeight="27.0" prefWidth="110.0" style="&#10;" text="Amount" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="171.0" layoutY="257.0" prefHeight="27.0" prefWidth="110.0" style="&#10;" text="End Age" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="171.0" layoutY="137.0" prefHeight="27.0" prefWidth="110.0" style="&#10;" text="Price" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="toyPriceTextField" layoutX="321.0" layoutY="137.0" AnchorPane.leftAnchor="321.0" AnchorPane.rightAnchor="170.2" />
+            <TextField fx:id="toyAmountTextField" layoutX="321.0" layoutY="177.0" AnchorPane.leftAnchor="321.0" AnchorPane.rightAnchor="170.2" />
+            <TextField fx:id="toyStartAgeTextField" layoutX="321.0" layoutY="217.0" AnchorPane.leftAnchor="321.0" AnchorPane.rightAnchor="170.2" />
+            <TextField fx:id="toyEndAgeTextField" layoutX="321.0" layoutY="257.0" AnchorPane.leftAnchor="321.0" AnchorPane.rightAnchor="170.2" />
+            <CheckBox fx:id="checkBoxClearFields" layoutX="39.0" layoutY="355.0" mnemonicParsing="false" text="Clear Fields after adding" AnchorPane.bottomAnchor="27.399999999999977" AnchorPane.leftAnchor="39.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

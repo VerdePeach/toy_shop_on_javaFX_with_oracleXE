@@ -1,0 +1,235 @@
+2020-02-15 01:32:33 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 20:28:45 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 20:28:55 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 20:28:57 INFO  GetByAgeAndPriceView:29 - View - "Get by age and price" was successfully loaded and configurated.
+2020-02-16 20:29:00 INFO  GetByAgeView:30 - View - "Get by age" was successfully loaded and configurated.
+2020-02-16 20:29:04 INFO  DeleteView:30 - Delete view was successfully loaded and configurated.
+2020-02-16 20:29:24 INFO  GetByAgeAndPriceView:29 - View - "Get by age and price" was successfully loaded and configurated.
+2020-02-16 20:29:31 INFO  GetByAgeView:30 - View - "Get by age" was successfully loaded and configurated.
+2020-02-16 20:46:22 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 20:46:26 INFO  Util:30 - Connection to database was established
+2020-02-16 20:46:29 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 20:46:51 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 20:46:51 INFO  Util:30 - Connection to database was established
+2020-02-16 20:46:58 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 20:47:06 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 20:47:06 INFO  Util:30 - Connection to database was established
+2020-02-16 20:51:09 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 20:51:11 INFO  Util:30 - Connection to database was established
+2020-02-16 20:51:12 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 20:51:21 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 20:51:21 INFO  Util:30 - Connection to database was established
+2020-02-16 20:51:25 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 20:51:34 ERROR ToyUtil:36 - Amount is invalid.
+2020-02-16 20:51:36 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 20:51:40 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 20:51:40 INFO  Util:30 - Connection to database was established
+2020-02-16 20:51:51 ERROR ToyUtil:25 - Price is invalid.
+2020-02-16 20:51:52 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 20:52:02 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 20:52:02 INFO  Util:30 - Connection to database was established
+2020-02-16 21:00:07 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 21:00:09 INFO  Util:30 - Connection to database was established
+2020-02-16 21:00:10 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:00:22 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:00:22 INFO  Util:30 - Connection to database was established
+2020-02-16 21:00:25 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:00:36 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:00:36 INFO  Util:30 - Connection to database was established
+2020-02-16 21:00:37 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:00:42 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:00:42 INFO  Util:30 - Connection to database was established
+2020-02-16 21:00:43 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:00:45 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:00:45 INFO  Util:30 - Connection to database was established
+2020-02-16 21:00:47 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:01:07 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:01:07 INFO  Util:30 - Connection to database was established
+2020-02-16 21:01:09 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:01:11 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 21:01:11 INFO  Util:30 - Connection to database was established
+2020-02-16 21:03:06 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 21:03:08 INFO  Util:30 - Connection to database was established
+2020-02-16 21:03:09 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:03:16 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:03:16 INFO  Util:30 - Connection to database was established
+2020-02-16 21:03:28 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:03:33 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:03:33 INFO  Util:30 - Connection to database was established
+2020-02-16 21:03:36 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:03:39 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 21:03:39 INFO  Util:30 - Connection to database was established
+2020-02-16 21:05:47 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 21:05:49 INFO  Util:30 - Connection to database was established
+2020-02-16 21:05:50 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:06:03 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:06:03 INFO  Util:30 - Connection to database was established
+2020-02-16 21:06:05 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:06:12 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:06:13 INFO  Util:30 - Connection to database was established
+2020-02-16 21:06:14 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:06:15 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 21:06:15 INFO  Util:30 - Connection to database was established
+2020-02-16 21:06:39 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 21:06:41 INFO  Util:30 - Connection to database was established
+2020-02-16 21:06:42 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:06:46 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:07:13 INFO  Util:30 - Connection to database was established
+2020-02-16 21:07:34 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 21:07:36 INFO  Util:30 - Connection to database was established
+2020-02-16 21:07:37 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:07:43 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:08:07 INFO  Util:30 - Connection to database was established
+2020-02-16 21:11:00 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 21:11:02 INFO  Util:30 - Connection to database was established
+2020-02-16 21:11:03 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:11:06 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 21:11:06 INFO  Util:30 - Connection to database was established
+2020-02-16 21:11:07 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:11:08 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 21:11:08 INFO  Util:30 - Connection to database was established
+2020-02-16 21:13:37 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 21:13:39 INFO  Util:30 - Connection to database was established
+2020-02-16 21:13:40 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:14:07 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:14:07 INFO  Util:30 - Connection to database was established
+2020-02-16 21:14:07 INFO  Util:30 - Connection to database was established
+2020-02-16 21:14:09 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:14:17 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:14:17 INFO  Util:30 - Connection to database was established
+2020-02-16 21:14:18 INFO  Util:30 - Connection to database was established
+2020-02-16 21:17:27 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:17:28 INFO  EditView:30 - Edit view was successfully loaded and configurated.
+2020-02-16 21:17:28 INFO  Util:30 - Connection to database was established
+2020-02-16 21:21:25 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-16 21:21:27 INFO  Util:30 - Connection to database was established
+2020-02-16 21:21:28 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:21:50 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:21:50 INFO  Util:30 - Connection to database was established
+2020-02-16 21:21:50 INFO  Util:30 - Connection to database was established
+2020-02-16 21:21:57 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:22:12 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:22:12 INFO  Util:30 - Connection to database was established
+2020-02-16 21:22:12 INFO  Util:30 - Connection to database was established
+2020-02-16 21:22:19 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:22:22 INFO  EditView:30 - Edit view was successfully loaded and configurated.
+2020-02-16 21:22:22 INFO  Util:30 - Connection to database was established
+2020-02-16 21:25:26 INFO  Util:18 - Oracle database driver successfully loaded.
+2020-02-16 21:25:27 INFO  Util:28 - Connection to database was established
+2020-02-16 21:25:28 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:25:45 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 21:25:45 INFO  Util:28 - Connection to database was established
+2020-02-16 21:26:27 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:26:27 INFO  Util:28 - Connection to database was established
+2020-02-16 21:26:27 INFO  Util:28 - Connection to database was established
+2020-02-16 21:26:29 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:26:36 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:26:36 INFO  Util:28 - Connection to database was established
+2020-02-16 21:26:36 INFO  Util:28 - Connection to database was established
+2020-02-16 21:27:13 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:27:19 INFO  EditView:30 - Edit view was successfully loaded and configurated.
+2020-02-16 21:27:19 INFO  Util:28 - Connection to database was established
+2020-02-16 21:44:05 INFO  Util:18 - Oracle database driver successfully loaded.
+2020-02-16 21:44:07 INFO  Util:28 - Connection to database was established
+2020-02-16 21:44:08 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:44:25 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:44:25 INFO  Util:28 - Connection to database was established
+2020-02-16 21:44:25 INFO  Util:28 - Connection to database was established
+2020-02-16 21:44:27 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:44:29 INFO  EditView:30 - Edit view was successfully loaded and configurated.
+2020-02-16 21:44:29 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:00 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:45:00 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:00 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:01 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:45:03 INFO  EditView:30 - Edit view was successfully loaded and configurated.
+2020-02-16 21:45:03 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:21 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:45:21 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:21 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:22 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:45:23 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:45:23 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:23 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:24 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:45:25 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:45:25 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:25 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:26 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:45:27 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:45:27 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:27 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:28 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:45:29 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:45:29 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:29 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:30 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:45:31 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:45:31 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:31 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:32 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:45:34 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:45:34 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:34 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:35 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:45:37 INFO  Toy:41 - Toy was successfully created.
+2020-02-16 21:45:37 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:37 INFO  Util:28 - Connection to database was established
+2020-02-16 21:45:38 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:45:39 INFO  EditView:30 - Edit view was successfully loaded and configurated.
+2020-02-16 21:45:39 INFO  Util:28 - Connection to database was established
+2020-02-16 21:46:10 INFO  Util:28 - Connection to database was established
+2020-02-16 21:46:10 INFO  Util:28 - Connection to database was established
+2020-02-16 21:46:10 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:46:27 INFO  Util:28 - Connection to database was established
+2020-02-16 21:46:27 INFO  Util:28 - Connection to database was established
+2020-02-16 21:46:29 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:46:44 INFO  DeleteView:30 - Delete view was successfully loaded and configurated.
+2020-02-16 21:46:44 INFO  Util:28 - Connection to database was established
+2020-02-16 21:50:00 INFO  Util:18 - Oracle database driver successfully loaded.
+2020-02-16 21:50:02 INFO  Util:28 - Connection to database was established
+2020-02-16 21:50:03 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:50:07 INFO  Util:28 - Connection to database was established
+2020-02-16 21:50:07 ERROR ToyDAOImpl:49 - The toy with such id or name did not exist!(editing)
+2020-02-16 21:50:10 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:50:20 INFO  Util:28 - Connection to database was established
+2020-02-16 21:50:20 ERROR ToyDAOImpl:49 - The toy with such id or name did not exist!(editing)
+2020-02-16 21:50:21 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:50:28 INFO  DeleteView:30 - Delete view was successfully loaded and configurated.
+2020-02-16 21:50:29 INFO  Util:28 - Connection to database was established
+2020-02-16 21:51:26 INFO  Util:18 - Oracle database driver successfully loaded.
+2020-02-16 21:51:27 INFO  Util:28 - Connection to database was established
+2020-02-16 21:51:28 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 21:51:32 INFO  Util:28 - Connection to database was established
+2020-02-16 21:51:32 ERROR ToyDAOImpl:49 - The toy with such id IntegerProperty [value: -1] or name StringProperty [value: ] did not exist!(editing)
+2020-02-16 21:51:43 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:51:48 INFO  Util:28 - Connection to database was established
+2020-02-16 21:51:48 ERROR ToyDAOImpl:49 - The toy with such id IntegerProperty [value: -1] or name StringProperty [value: sdvs] did not exist!(editing)
+2020-02-16 21:51:51 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:51:54 INFO  Util:28 - Connection to database was established
+2020-02-16 21:51:54 ERROR ToyDAOImpl:49 - The toy with such id IntegerProperty [value: 234322] or name StringProperty [value: sdvs] did not exist!(editing)
+2020-02-16 21:51:58 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 21:51:59 INFO  DeleteView:30 - Delete view was successfully loaded and configurated.
+2020-02-16 21:51:59 INFO  Util:28 - Connection to database was established
+2020-02-16 22:06:20 INFO  Util:18 - Oracle database driver successfully loaded.
+2020-02-16 22:06:21 INFO  Util:28 - Connection to database was established
+2020-02-16 22:06:22 INFO  ToyDAOImpl:160 - Toy list was got successfully.
+2020-02-16 22:06:22 INFO  MainView:49 - Main view was successfully loaded and configurated.
+2020-02-16 22:06:28 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 22:06:28 INFO  Util:28 - Connection to database was established
+2020-02-16 22:06:28 INFO  ToyDAOImpl:31 - New toy was successfully added to database.
+2020-02-16 22:06:30 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 22:06:30 INFO  CreateViewController:82 - Toy successfully added to database.
+2020-02-16 22:06:35 INFO  Toy:30 - Toy was successfully created.
+2020-02-16 22:06:35 INFO  Util:28 - Connection to database was established
+2020-02-16 22:06:37 INFO  InfoModalView:32 - Modal view was successfully loaded and configurated.
+2020-02-16 22:06:37 ERROR CreateViewController:86 - Error adding of new toy incorrect values Toy{id=null, name='StringProperty [value: grsrgsd]', price=FloatProperty [value: -1.0], amount=IntegerProperty [value: -1], startAge=IntegerProperty [value: -1], endAge=IntegerProperty [value: -1]} of toy properties or to with such name has already exists!ORA-00001: нарушено ограничение уникальности (SYSTEM.SYS_C0020275)
+
+2020-02-16 22:06:38 INFO  CreateView:30 - Create view was successfully loaded and configurated.
+2020-02-16 22:06:39 INFO  Util:28 - Connection to database was established
+2020-02-16 22:06:39 INFO  ToyDAOImpl:160 - Toy list was got successfully.
+2020-02-16 22:46:32 INFO  Util:18 - Oracle database driver successfully loaded.
+2020-02-16 22:46:34 INFO  Util:28 - Connection to database was established
+2020-02-16 22:46:34 INFO  ToyDAOImpl:160 - Toy list was got successfully.
+2020-02-16 22:46:34 INFO  MainViewController:157 - Toys was got from database and successfully pushed to view table.
+2020-02-16 22:46:35 INFO  MainView:49 - Main view was successfully loaded and configurated.
