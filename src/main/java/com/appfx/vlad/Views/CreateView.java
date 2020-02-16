@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 
 /**
+ * Class of CreateView window.
  * @author VerdePeach
  */
 public class CreateView {
@@ -18,6 +19,9 @@ public class CreateView {
     private static Parent createWindow;
     private final static Logger logger = Logger.getLogger(CreateView.class);
 
+    /**
+     * Method that loads and sets Stage for CreateView window.
+     */
     public void displayCreateView() {
         try {
             createWindow = FXMLLoader.load(getClass().getResource("/createView.fxml"));
@@ -34,6 +38,11 @@ public class CreateView {
         }
     }
 
+    /**
+     * Method gives stage of CreateView window.
+     *
+     * @return stage of CreateView window.
+     */
     public Stage getCreateStage() {
         return createStage;
     }

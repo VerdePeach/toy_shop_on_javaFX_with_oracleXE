@@ -8,6 +8,10 @@ import com.appfx.vlad.services.ToyService;
 import java.sql.SQLException;
 import java.util.List;
 
+/**
+ * Class that realised ToyService.
+ * Calls ToyDAO realized methods.
+ */
 public class ToyServiceImpl implements ToyService {
 
     private static ToyDAO toyDAO = new ToyDAOImpl();

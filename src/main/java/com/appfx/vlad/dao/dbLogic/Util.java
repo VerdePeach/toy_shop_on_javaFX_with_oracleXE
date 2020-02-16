@@ -2,13 +2,15 @@ package com.appfx.vlad.dao.dbLogic;
 
 import org.apache.log4j.Logger;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class Util {
 
     private final static Logger logger = Logger.getLogger(Util.class);
     private final static String ORACLE_DB_DRIVER = "oracle.jdbc.driver.OracleDriver";
-    private final static String ORACLE_DB_URL = "jdbc:oracle:thin:@localhost:1522:xe"; //1521 or 1522
+    private final static String ORACLE_DB_URL = "jdbc:oracle:thin:@localhost:1522:xe";
     private final static String ORACLE_DB_USERNAME = "SYSTEM";
     private final static String ORACLE_DB_PASSWORD = "vladbright";
 

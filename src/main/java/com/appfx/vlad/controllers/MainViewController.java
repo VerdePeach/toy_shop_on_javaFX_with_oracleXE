@@ -1,6 +1,5 @@
 package com.appfx.vlad.controllers;
 
-import com.appfx.vlad.Views.MainView;
 import com.appfx.vlad.Views.*;
 import com.appfx.vlad.models.Toy;
 import com.appfx.vlad.services.ToyService;
@@ -8,17 +7,14 @@ import com.appfx.vlad.services.servicesImpl.ToyServiceImpl;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.Menu;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import org.apache.log4j.Logger;
 
 import java.sql.SQLException;
-import java.util.List;
 
-
+/**
+ * Class controller of MainView window.
+ */
 public class MainViewController {
 
     private static Logger logger = Logger.getLogger(MainViewController.class);
@@ -31,7 +27,12 @@ public class MainViewController {
     private MainView mainView = new MainView();
     private static ToyService toyService = new ToyServiceImpl();
 
-    public static CreateView getCreateStage() {
+    /**
+     * Method gives createView object.
+     *
+     * @return createView object.
+     */
+    static CreateView getCreateStage() {
         return createView;
     }
 
@@ -83,6 +84,11 @@ public class MainViewController {
     @FXML
     private TableColumn<Toy, Integer> endAgeColumn;
 
+    /**
+     * Method of start initialisation of MainView window nodes.
+     * Here described event listeners of the window buttons
+     * and interactions settings of window.
+     */
     @FXML
     private void initialize() {
         toyIdColumn.setCellValueFactory(cellData -> cellData.getValue().getId().asObject());
@@ -94,7 +100,7 @@ public class MainViewController {
 
         createButton.setOnAction(e -> {
             createView.displayCreateView();
-                getToyObservableList();
+            getToyObservableList();
         });
 
         editButton.setOnAction(e -> {
@@ -149,6 +155,11 @@ public class MainViewController {
         getToyObservableList();
     }
 
+    /**
+     * Method gives full toy list.
+     *
+     * @return full toy list from base.
+     */
     private ObservableList<Toy>  getToyObservableList() {
         ObservableList<Toy> toyData = FXCollections.observableArrayList();
         try {

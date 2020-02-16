@@ -5,13 +5,19 @@ import com.appfx.vlad.dao.dbLogic.Util;
 import com.appfx.vlad.models.Toy;
 import org.apache.log4j.Logger;
 
-
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 import static java.sql.Types.NULL;
 
+/**
+ * Class that realise ToyDAO.
+ * Includes logic of working with database.
+ */
 public class ToyDAOImpl implements ToyDAO {
 
     private final static Logger logger = Logger.getLogger(ToyDAOImpl.class);
@@ -53,22 +59,22 @@ public class ToyDAOImpl implements ToyDAO {
 
     @Override
     public void updateToy(Toy toy) throws SQLException {
-            boolean isExistToy = existToy(toy);
+        boolean isExistToy = existToy(toy);
 
-            if (isExistToy) {
-                conn = Util.connection();
-                sql = "UPDATE toy SET t_name = ?, price = ?, amount = ?, s_age = ?, e_age = ? WHERE t_id = ? or t_name = ?";
-                preparedStatement = conn.prepareStatement(sql);
-                setPreparedStatement(toy, preparedStatement);
-                preparedStatement.setInt(6, toy.getId().get());
-                preparedStatement.setString(7, toy.getName().get());
-                preparedStatement.executeUpdate();
-                conn.close();
-                logger.info("The toy was successfully edited in database.");
-            } else {
-                logger.error("The toy with such id  " + toy.getId() +  " or name " + toy.getName() + " or name did not exist! (editing)");
-                throw new SQLException();
-            }
+        if (isExistToy) {
+            conn = Util.connection();
+            sql = "UPDATE toy SET t_name = ?, price = ?, amount = ?, s_age = ?, e_age = ? WHERE t_id = ? or t_name = ?";
+            preparedStatement = conn.prepareStatement(sql);
+            setPreparedStatement(toy, preparedStatement);
+            preparedStatement.setInt(6, toy.getId().get());
+            preparedStatement.setString(7, toy.getName().get());
+            preparedStatement.executeUpdate();
+            conn.close();
+            logger.info("The toy was successfully edited in database.");
+        } else {
+            logger.error("The toy with such id  " + toy.getId() + " or name " + toy.getName() + " or name did not exist! (editing)");
+            throw new SQLException();
+        }
     }
 
 
@@ -113,6 +119,13 @@ public class ToyDAOImpl implements ToyDAO {
         return getToyListFromResultSet(preparedStatement);
     }
 
+    /**
+     * Method sets preparedStatement
+     *
+     * @param toy               - toy with checked parameters.
+     * @param preparedStatement - statement that should be configured.
+     * @throws SQLException if something goes wrong with toy parameters or preparedStatement.
+     */
     private void setPreparedStatement (Toy toy, PreparedStatement preparedStatement) throws SQLException {
         preparedStatement.setString(1, toy.getName().get());
 
@@ -139,10 +152,13 @@ public class ToyDAOImpl implements ToyDAO {
         } else {
             preparedStatement.setInt(5, toy.getEndAge().get());
         }
-
-
     }
 
+    /**
+     * @param preparedStatement - statement that should be executed.
+     * @return toy list.
+     * @throws SQLException if something goes wrong with preparedStatement, database or parameters.
+     */
     private List<Toy> getToyListFromResultSet(PreparedStatement preparedStatement) throws SQLException{
         ResultSet resultSet = preparedStatement.executeQuery();
         List<Toy> toyList = new ArrayList<>();
@@ -161,6 +177,14 @@ public class ToyDAOImpl implements ToyDAO {
         return toyList;
     }
 
+    /**
+     * Method compare the user toy and toys in base.
+     * If toy coincided method return true.
+     *
+     * @param toy - user toy.
+     * @return true or false
+     * @throws SQLException if something goes wrong with base or connection to base.
+     */
     private boolean existToy(Toy toy) throws SQLException {
         List<Toy> toyList = getToys();
         boolean isExistToy = false;

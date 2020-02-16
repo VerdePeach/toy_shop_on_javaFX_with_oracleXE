@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 
 /**
+ * Class of GetByAgeView window
  * @author VerdePeach
  */
 public class GetByAgeView {
@@ -18,6 +19,9 @@ public class GetByAgeView {
     private static Parent getByAgeWindow;
     private final static Logger logger = Logger.getLogger(GetByAgeView.class);
 
+    /**
+     * Method that loads and sets Stage for GetByAgeView window.
+     */
     public void displayGetByAgeView() {
         try {
             getByAgeWindow = FXMLLoader.load(getClass().getResource("/getByAgeView.fxml"));
@@ -33,6 +37,11 @@ public class GetByAgeView {
         }
     }
 
+    /**
+     * Method gives stage of GetByAgeView window.
+     *
+     * @return stage of GetByAgeView window.
+     */
     public Stage getGetByAgeStage () {
         return getByAgeStage;
     }

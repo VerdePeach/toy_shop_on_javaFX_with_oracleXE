@@ -10,6 +10,8 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 
 /**
+ * Class of modal window
+ * that informs user about warnings and successes.
  * @author VerdePeach
  */
 public class InfoModalView {
@@ -20,6 +22,9 @@ public class InfoModalView {
 
     private static String text;
 
+    /**
+     * Method that loads and sets Stage for modal window.
+     */
     public void displayInfoModalView() {
         try {
             infoModalWindow = FXMLLoader.load(getClass().getResource("/infoModalView.fxml"));
@@ -35,15 +40,30 @@ public class InfoModalView {
         }
     }
 
+    /**
+     * Method gives stage of modal window.
+     *
+     * @return stage of modal window.
+     */
     public static Stage getInfoModalStage() {
         return infoModalStage;
     }
 
+    /**
+     * Method gives the text of modal window.
+     *
+     * @return text of modal window.
+     */
     public static String getText() {
         return text;
     }
 
+    /**
+     * Method that sets the text of modal window.
+     *
+     * @param text - text of modal window.
+     */
     public void setText(String text) {
-        this.text = text;
+        InfoModalView.text = text;
     }
 }

@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 
 /**
+ * Class of EditView window.
  * @author VerdePeach
  */
 public class EditView {
@@ -18,6 +19,9 @@ public class EditView {
     private static Parent editWindow;
     private final static Logger logger = Logger.getLogger(EditView.class);
 
+    /**
+     * Method that loads and sets Stage for EditView window.
+     */
     public void displayEditView() {
         try {
             editWindow = FXMLLoader.load(getClass().getResource("/editView.fxml"));
@@ -33,6 +37,11 @@ public class EditView {
         }
     }
 
+    /**
+     * Method gives stage of EditView window.
+     *
+     * @return stage of EditView window.
+     */
     public Stage getCreateStage() {
         return editStage;
     }

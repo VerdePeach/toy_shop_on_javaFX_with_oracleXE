@@ -15,6 +15,9 @@ import org.apache.log4j.Logger;
 
 import java.sql.SQLException;
 
+/**
+ * Class controller of DeleteView window.
+ */
 public class DeleteViewController {
 
     private static final Logger logger = Logger.getLogger(DeleteViewController.class);
@@ -38,16 +41,21 @@ public class DeleteViewController {
     @FXML
     private TextField toyIdTextField;
 
+    /**
+     * Method of start initialisation of DeleteView window nodes.
+     * Here described event listeners of the window buttons
+     * and interactions settings of window.
+     */
     @FXML
     private void initialize() {
         cancelButton.setOnAction(e ->
-            deleteView.getDeleteStage().close()
+                deleteView.getDeleteStage().close()
         );
 
         deleteToyButton.setOnAction(e -> {
 
             boolean clearFields = true;
-            Toy toy = null;
+            Toy toy;
             int id;
             String name;
             try {
@@ -74,8 +82,7 @@ public class DeleteViewController {
                 infoModalView.displayInfoModalView();
                 System.out.println("Incorrect data from user " + ex.getMessage());
                 clearFields = false;
-                logger.error("Error deleting of toy incorrect values of toy properties id = " + toy.getId()
-                        + " name = " + toy.getName() + "\n" + ex.getMessage());
+                logger.error("Error deleting of toy incorrect values of toy properties" + ex.getMessage());
             }
 
             if(checkBoxClearFields.isSelected() && clearFields) {

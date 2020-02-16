@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 
 /**
+ * Class of DeleteView window.
  * @author VerdePeach
  */
 public class DeleteView {
@@ -18,6 +19,9 @@ public class DeleteView {
     private static Parent deleteWindow;
     private final static Logger logger = Logger.getLogger(DeleteView.class);
 
+    /**
+     * Method that loads and sets Stage for DeleteView window.
+     */
     public void displayDeleteView() {
         try {
             deleteWindow = FXMLLoader.load(getClass().getResource("/deleteView.fxml"));
@@ -34,6 +38,11 @@ public class DeleteView {
 
     }
 
+    /**
+     * Method gives stage of DeleteView window.
+     *
+     * @return stage of DeleteView window.
+     */
     public Stage getDeleteStage() {
         return deleteStage;
     }

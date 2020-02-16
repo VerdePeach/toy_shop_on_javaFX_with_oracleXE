@@ -3,7 +3,9 @@ package com.appfx.vlad.models;
 import javafx.beans.property.*;
 import org.apache.log4j.Logger;
 
-
+/**
+ * Class of main entity
+ */
 public class Toy {
 
     private final static Logger logger = Logger.getLogger(Toy.class);
@@ -15,12 +17,29 @@ public class Toy {
     private IntegerProperty startAge;
     private IntegerProperty endAge;
 
+    /**
+     * Empty Constructor.
+     */
     public Toy() {}
 
+    /**
+     * Constructor with one parameter.
+     *
+     * @param name - name of thr toy.
+     */
     public Toy(String name) {
         this.name = new SimpleStringProperty(name);
     }
 
+    /**
+     * Constructor with five parameters.
+     *
+     * @param name     - name of thr toy.
+     * @param price    - price of thr toy.
+     * @param amount   - amount of thr toys.
+     * @param startAge - start age of children that can play with this toy.
+     * @param endAge   - end age of children that adult to play with this toy.
+     */
     public Toy(String name, float price, int amount, int startAge, int endAge) {
         this.name = new SimpleStringProperty(name);
         this.price = new SimpleFloatProperty(price);
@@ -30,7 +49,14 @@ public class Toy {
         logger.info("Toy was successfully created.");
     }
 
-
+    /**
+     * @param id       - unique identifier of the toy.
+     * @param name     - name of thr toy.
+     * @param price    - price of thr toy.
+     * @param amount   - amount of thr toys.
+     * @param startAge - start age of children that can play with this toy.
+     * @param endAge   - end age of children that adult to play with this toy.
+     */
     public Toy(int id, String name, float price, int amount, int startAge, int endAge) {
         this.id = new SimpleIntegerProperty(id);
         this.name = new SimpleStringProperty(name);
@@ -46,7 +72,7 @@ public class Toy {
     }
 
     public void setId(int id) {
-        this.id = new SimpleIntegerProperty(id);;
+        this.id = new SimpleIntegerProperty(id);
     }
 
     public StringProperty getName() {
@@ -89,6 +115,11 @@ public class Toy {
         this.endAge = new SimpleIntegerProperty(endAge);
     }
 
+    /**
+     * Method that gives information about the toy.
+     *
+     * @return string that describing toy.
+     */
     @Override
     public String toString() {
         return "Toy{" +

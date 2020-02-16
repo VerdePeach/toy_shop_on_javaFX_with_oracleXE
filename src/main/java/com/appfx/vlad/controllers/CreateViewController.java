@@ -14,6 +14,9 @@ import org.apache.log4j.Logger;
 
 import java.sql.SQLException;
 
+/**
+ * Class controller of CreateView window.
+ */
 public class CreateViewController {
 
     private static final Logger logger = Logger.getLogger(CreateViewController.class);
@@ -21,8 +24,6 @@ public class CreateViewController {
     private static InfoModalView infoModalView = new InfoModalView();
     private static ToyServiceImpl toyService = new ToyServiceImpl();
     private static MainView mainView = new MainView();
-
-
 
     @FXML
     private Button addNewToyButton;
@@ -48,11 +49,14 @@ public class CreateViewController {
     @FXML
     private CheckBox checkBoxClearFields;
 
+    /**
+     * Method of start initialisation of CreateView window nodes.
+     * Here described event listeners of the window buttons
+     * and interactions settings of window.
+     */
     @FXML
     private void initialize() {
-        cancelButton.setOnAction(e -> {
-            createView.getCreateStage().close();
-        });
+        cancelButton.setOnAction(e -> createView.getCreateStage().close());
 
         addNewToyButton.setOnAction(e -> {
 
@@ -91,7 +95,7 @@ public class CreateViewController {
                 infoModalView.setText("Incorrect values of fields!");
                 infoModalView.displayInfoModalView();
                 clearFields = false;
-                logger.error("Error adding of new toy incorrect values of toy properties " + toy.toString() + "\n" + ex.getMessage());
+                logger.error("Error adding of new toy incorrect values of toy properties " + toy.toString() + ex.getMessage());
             }
 
             if (checkBoxClearFields.isSelected() && clearFields){

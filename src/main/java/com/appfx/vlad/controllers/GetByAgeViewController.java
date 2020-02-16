@@ -1,9 +1,8 @@
 package com.appfx.vlad.controllers;
 
-import com.appfx.vlad.Views.GetByAgeAndPriceView;
-import com.appfx.vlad.Views.MainView;
 import com.appfx.vlad.Views.GetByAgeView;
 import com.appfx.vlad.Views.InfoModalView;
+import com.appfx.vlad.Views.MainView;
 import com.appfx.vlad.models.Toy;
 import com.appfx.vlad.models.toyUtils.ToyUtil;
 import com.appfx.vlad.services.ToyService;
@@ -17,6 +16,9 @@ import org.apache.log4j.Logger;
 
 import java.sql.SQLException;
 
+/**
+ * Class controller of GetByAgeView window.
+ */
 public class GetByAgeViewController {
 
     private static final Logger logger = Logger.getLogger(GetByAgeViewController.class);
@@ -37,6 +39,11 @@ public class GetByAgeViewController {
     @FXML
     private TextField startAgeTextField;
 
+    /**
+     * Method of start initialisation of GetByAgeView window nodes.
+     * Here described event listeners of the window buttons
+     * and interactions settings of window.
+     */
     @FXML
     private void initialize() {
         cancelButton.setOnAction(e -> {

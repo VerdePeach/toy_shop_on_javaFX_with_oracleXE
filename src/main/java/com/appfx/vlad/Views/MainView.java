@@ -13,10 +13,8 @@ import org.apache.log4j.Logger;
 import java.io.IOException;
 
 /**
- * Main class and mainView
- * for loading main stage
- * and saving information about List of toys.
- *
+ * Main class and mainView window.
+ * Start point of the programme.
  * @author VerdePeach
  * @version 1.0
  */
@@ -35,7 +33,7 @@ public class MainView extends Application {
     }
 
     /**
-     * Method for load Stage of main view.
+     * Method for loading and setting Stage of main view.
      * @param primaryStage - stage of main view.
      */
     @Override

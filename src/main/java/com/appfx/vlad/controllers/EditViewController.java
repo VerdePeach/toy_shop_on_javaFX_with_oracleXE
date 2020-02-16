@@ -15,6 +15,9 @@ import org.apache.log4j.Logger;
 
 import java.sql.SQLException;
 
+/**
+ * Class controller of EditView window.
+ */
 public class EditViewController {
 
     private static final Logger logger = Logger.getLogger(EditViewController.class);
@@ -50,11 +53,14 @@ public class EditViewController {
     @FXML
     private TextField toyIdTextField;
 
+    /**
+     * Method of start initialisation of EditView window nodes.
+     * Here described event listeners of the window buttons
+     * and interactions settings of window.
+     */
     @FXML
     private void initialize() {
-        cancelButton.setOnAction(e -> {
-            editView.getCreateStage().close();
-        });
+        cancelButton.setOnAction(e -> editView.getCreateStage().close());
         editToyButton.setOnAction(e -> {
 
             boolean clearFields = true;
@@ -94,7 +100,7 @@ public class EditViewController {
                 infoModalView.setText("Data is incorrect!");
                 infoModalView.displayInfoModalView();
                 clearFields = false;
-                logger.error("Error editing of toy incorrect values of toy properties " + toy.toString() + "\n" + ex.getMessage());
+                logger.error("Error editing of toy incorrect values of toy properties " + toy.toString() + ex.getMessage());
             }
 
             if (checkBoxClearFields.isSelected() && clearFields){
