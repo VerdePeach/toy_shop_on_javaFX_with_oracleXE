@@ -1,12 +1,11 @@
 package com.appfx.vlad.controllers;
 
-import com.appfx.vlad.Views.DeleteView;
-import com.appfx.vlad.Views.InfoModalView;
-import com.appfx.vlad.Views.MainView;
 import com.appfx.vlad.models.Toy;
 import com.appfx.vlad.models.toyUtils.ToyUtil;
 import com.appfx.vlad.services.ToyService;
 import com.appfx.vlad.services.servicesImpl.ToyServiceImpl;
+import com.appfx.vlad.views.DeleteView;
+import com.appfx.vlad.views.InfoModalView;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
@@ -20,11 +19,10 @@ import java.sql.SQLException;
  */
 public class DeleteViewController {
 
-    private static final Logger logger = Logger.getLogger(DeleteViewController.class);
+    private final static Logger logger = Logger.getLogger(DeleteViewController.class);
     private static DeleteView deleteView = new DeleteView();
     private static ToyService toyService = new ToyServiceImpl();
     private static InfoModalView infoModalView = new InfoModalView();
-    private MainView mainView = new MainView();
 
     @FXML
     private Button deleteToyButton;
@@ -74,8 +72,12 @@ public class DeleteViewController {
                 } catch (SQLException ex) {
                     infoModalView.setText("deleting ERROR!");
                     infoModalView.displayInfoModalView();
-                    logger.error("Error deleting of toy incorrect values of toy properties id = " + toy.getId()
-                            + " name = " + toy.getName() + "/nor toy with such name does not exist!" + ex.getMessage());
+                    if (toy != null)
+                        logger.error("Error deleting of toy incorrect values of toy properties id = " + toy.getId()
+                                + " name = " + toy.getName() + "/nor toy with such name does not exist!" + ex.getMessage());
+                    else
+                        logger.error("Error deleting of toy incorrect values of toy is null" +
+                                "/nor toy with such name does not exist!" + ex.getMessage());
                 }
             } catch (Exception ex) {
                 infoModalView.setText("Data is incorrect!");

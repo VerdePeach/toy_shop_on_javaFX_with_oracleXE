@@ -1,9 +1,9 @@
 package com.appfx.vlad.controllers;
 
-import com.appfx.vlad.Views.*;
 import com.appfx.vlad.models.Toy;
 import com.appfx.vlad.services.ToyService;
 import com.appfx.vlad.services.servicesImpl.ToyServiceImpl;
+import com.appfx.vlad.views.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -17,7 +17,7 @@ import java.sql.SQLException;
  */
 public class MainViewController {
 
-    private static Logger logger = Logger.getLogger(MainViewController.class);
+    private final static Logger logger = Logger.getLogger(MainViewController.class);
     private static CreateView createView = new CreateView();
     private static EditView editView = new EditView();
     private static DeleteView deleteView = new DeleteView();

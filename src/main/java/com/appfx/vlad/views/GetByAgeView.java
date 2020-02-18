@@ -1,4 +1,4 @@
-package com.appfx.vlad.Views;
+package com.appfx.vlad.views;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -42,7 +42,7 @@ public class GetByAgeView {
      *
      * @return stage of GetByAgeView window.
      */
-    public Stage getGetByAgeStage () {
+    public Stage getGetByAgeStage() {
         return getByAgeStage;
     }
 }

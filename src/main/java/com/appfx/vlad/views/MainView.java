@@ -1,4 +1,4 @@
-package com.appfx.vlad.Views;
+package com.appfx.vlad.views;
 
 import com.appfx.vlad.models.Toy;
 import javafx.application.Application;
@@ -20,9 +20,9 @@ import java.io.IOException;
  */
 public class MainView extends Application {
 
+    private final static Logger logger = Logger.getLogger(MainView.class);
     private static ObservableList<Toy> toyData = FXCollections.observableArrayList();
     private static Stage mainStage = null;
-    private final static Logger logger = Logger.getLogger(MainView.class);
 
     /**
      * Main method of the programme.

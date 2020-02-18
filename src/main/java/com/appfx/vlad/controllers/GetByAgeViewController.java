@@ -1,12 +1,12 @@
 package com.appfx.vlad.controllers;
 
-import com.appfx.vlad.Views.GetByAgeView;
-import com.appfx.vlad.Views.InfoModalView;
-import com.appfx.vlad.Views.MainView;
 import com.appfx.vlad.models.Toy;
 import com.appfx.vlad.models.toyUtils.ToyUtil;
 import com.appfx.vlad.services.ToyService;
 import com.appfx.vlad.services.servicesImpl.ToyServiceImpl;
+import com.appfx.vlad.views.GetByAgeView;
+import com.appfx.vlad.views.InfoModalView;
+import com.appfx.vlad.views.MainView;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -21,7 +21,7 @@ import java.sql.SQLException;
  */
 public class GetByAgeViewController {
 
-    private static final Logger logger = Logger.getLogger(GetByAgeViewController.class);
+    private final static Logger logger = Logger.getLogger(GetByAgeViewController.class);
     private static GetByAgeView getByAgeView = new GetByAgeView();
     private static MainView mainView = new MainView();
     private static ToyService toyService = new ToyServiceImpl();

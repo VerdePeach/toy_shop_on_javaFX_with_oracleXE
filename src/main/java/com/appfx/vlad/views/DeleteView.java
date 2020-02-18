@@ -1,4 +1,4 @@
-package com.appfx.vlad.Views;
+package com.appfx.vlad.views;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

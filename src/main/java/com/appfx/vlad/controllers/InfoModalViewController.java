@@ -1,6 +1,6 @@
 package com.appfx.vlad.controllers;
 
-import com.appfx.vlad.Views.InfoModalView;
+import com.appfx.vlad.views.InfoModalView;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

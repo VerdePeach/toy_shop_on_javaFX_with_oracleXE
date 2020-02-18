@@ -110,7 +110,7 @@ public class ToyDAOImpl implements ToyDAO {
     @Override
     public List<Toy> getToysByPriseAndAge(float price, int startAge, int endAge) throws SQLException {
         conn = Util.connection();
-        sql = "SELECT * FROM toy WHERE price = ? and s_age >= ? and e_age <= ?";
+        sql = "SELECT * FROM toy WHERE price <= ? and s_age >= ? and e_age <= ?";
         preparedStatement = conn.prepareStatement(sql);
         preparedStatement.setFloat(1, price);
         preparedStatement.setInt(2, startAge);

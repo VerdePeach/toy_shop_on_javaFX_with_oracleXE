@@ -1,11 +1,10 @@
 package com.appfx.vlad.controllers;
 
-import com.appfx.vlad.Views.CreateView;
-import com.appfx.vlad.Views.InfoModalView;
-import com.appfx.vlad.Views.MainView;
 import com.appfx.vlad.models.Toy;
 import com.appfx.vlad.models.toyUtils.ToyUtil;
 import com.appfx.vlad.services.servicesImpl.ToyServiceImpl;
+import com.appfx.vlad.views.CreateView;
+import com.appfx.vlad.views.InfoModalView;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
@@ -19,11 +18,10 @@ import java.sql.SQLException;
  */
 public class CreateViewController {
 
-    private static final Logger logger = Logger.getLogger(CreateViewController.class);
+    private final static Logger logger = Logger.getLogger(CreateViewController.class);
     private static CreateView createView = MainViewController.getCreateStage();
     private static InfoModalView infoModalView = new InfoModalView();
     private static ToyServiceImpl toyService = new ToyServiceImpl();
-    private static MainView mainView = new MainView();
 
     @FXML
     private Button addNewToyButton;
@@ -95,7 +93,10 @@ public class CreateViewController {
                 infoModalView.setText("Incorrect values of fields!");
                 infoModalView.displayInfoModalView();
                 clearFields = false;
-                logger.error("Error adding of new toy incorrect values of toy properties " + toy.toString() + ex.getMessage());
+                if (toy != null)
+                    logger.error("Error adding of new toy incorrect values of toy properties " + toy.toString() + ex.getMessage());
+                else
+                    logger.error("Error adding of new toy incorrect values of toy is null " + ex.getMessage());
             }
 
             if (checkBoxClearFields.isSelected() && clearFields){

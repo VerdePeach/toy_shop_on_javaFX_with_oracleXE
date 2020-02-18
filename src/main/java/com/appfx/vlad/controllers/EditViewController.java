@@ -1,12 +1,11 @@
 package com.appfx.vlad.controllers;
 
-import com.appfx.vlad.Views.EditView;
-import com.appfx.vlad.Views.InfoModalView;
-import com.appfx.vlad.Views.MainView;
 import com.appfx.vlad.models.Toy;
 import com.appfx.vlad.models.toyUtils.ToyUtil;
 import com.appfx.vlad.services.ToyService;
 import com.appfx.vlad.services.servicesImpl.ToyServiceImpl;
+import com.appfx.vlad.views.EditView;
+import com.appfx.vlad.views.InfoModalView;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
@@ -20,11 +19,10 @@ import java.sql.SQLException;
  */
 public class EditViewController {
 
-    private static final Logger logger = Logger.getLogger(EditViewController.class);
+    private final static Logger logger = Logger.getLogger(EditViewController.class);
     private static EditView editView = new EditView();
     private static ToyService toyService = new ToyServiceImpl();
     private static InfoModalView infoModalView = new InfoModalView();
-    private static MainView mainView = new MainView();
 
     @FXML
     private Button editToyButton;
@@ -100,7 +98,10 @@ public class EditViewController {
                 infoModalView.setText("Data is incorrect!");
                 infoModalView.displayInfoModalView();
                 clearFields = false;
-                logger.error("Error editing of toy incorrect values of toy properties " + toy.toString() + ex.getMessage());
+                if (toy != null)
+                    logger.error("Error editing of toy incorrect values of toy properties " + toy.toString() + ex.getMessage());
+                else
+                    logger.error("Error editing of toy incorrect values of toy is null " + ex.getMessage());
             }
 
             if (checkBoxClearFields.isSelected() && clearFields){

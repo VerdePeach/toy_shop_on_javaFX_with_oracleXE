@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="odz" target="8" />
+      <module name="odz" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
