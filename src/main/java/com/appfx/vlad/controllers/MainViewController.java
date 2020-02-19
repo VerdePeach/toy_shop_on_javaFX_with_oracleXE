@@ -162,8 +162,9 @@ public class MainViewController {
         helpMenuItem.setOnAction(e -> {
             try {
                 Desktop.getDesktop().open(new File("target/classes/help.html"));
+                logger.info("Help file loaded and opened.");
             } catch (IOException ex) {
-                logger.error("File was not found" + ex.getMessage());
+                logger.error("File was not found. " + ex.getMessage());
             }
         });
 
