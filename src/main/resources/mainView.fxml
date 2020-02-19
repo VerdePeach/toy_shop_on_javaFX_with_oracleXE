@@ -11,10 +11,10 @@
         <menus>
             <Menu mnemonicParsing="false" text="File">
                 <items>
+                    <MenuItem fx:id="helpMenuItem" mnemonicParsing="false" text="Help"/>
                     <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" text="Quit" />
                 </items>
             </Menu>
-            <Menu fx:id="helpMenuItem" mnemonicParsing="false" text="Help" />
         </menus>
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0"

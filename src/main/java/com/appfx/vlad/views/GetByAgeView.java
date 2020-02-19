@@ -26,7 +26,7 @@ public class GetByAgeView {
         try {
             getByAgeWindow = FXMLLoader.load(getClass().getResource("/getByAgeView.fxml"));
             getByAgeStage = new Stage();
-            getByAgeStage.setTitle("Get toy by age");
+            getByAgeStage.setTitle("Get toy for age");
             getByAgeStage.setScene(new Scene(getByAgeWindow));
             getByAgeStage.initModality(Modality.APPLICATION_MODAL);
             getByAgeStage.setResizable(false);

@@ -7,9 +7,15 @@ import com.appfx.vlad.views.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.MenuItem;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import org.apache.log4j.Logger;
 
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
 import java.sql.SQLException;
 
 /**
@@ -40,7 +46,7 @@ public class MainViewController {
     private MenuItem exitMenuItem;
 
     @FXML
-    private Menu helpMenuItem;
+    private MenuItem helpMenuItem;
 
     @FXML
     private Button createButton;
@@ -152,6 +158,15 @@ public class MainViewController {
         });
 
         exitMenuItem.setOnAction(e -> mainView.getMainStage().close());
+
+        helpMenuItem.setOnAction(e -> {
+            try {
+                Desktop.getDesktop().open(new File("target/classes/help.html"));
+            } catch (IOException ex) {
+                logger.error("File was not found" + ex.getMessage());
+            }
+        });
+
         getToyObservableList();
     }
 

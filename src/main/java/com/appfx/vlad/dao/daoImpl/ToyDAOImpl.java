@@ -155,6 +155,7 @@ public class ToyDAOImpl implements ToyDAO {
     }
 
     /**
+     * Method for processing and data conversion
      * @param preparedStatement - statement that should be executed.
      * @return toy list.
      * @throws SQLException if something goes wrong with preparedStatement, database or parameters.

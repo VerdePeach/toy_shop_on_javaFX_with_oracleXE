@@ -46,7 +46,7 @@ public class MainView extends Application {
             mainStage = primaryStage;
             logger.info("Main view was successfully loaded and configurated.");
         } catch (IOException ex) {
-            logger.error("FXML file \"mainView.fxml\" did not find.");
+            logger.error("FXML file \"mainView.fxml\" did not find." + ex.getMessage());
         }
 
     }

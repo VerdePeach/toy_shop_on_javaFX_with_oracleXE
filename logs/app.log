@@ -637,3 +637,144 @@
 2020-02-18 22:59:04 INFO  ToyDAOImpl:176 - Toy list was got successfully.
 2020-02-18 22:59:04 INFO  GetByAgeAndPriceViewController:74 - List of toys was successfully got.
 2020-02-18 22:59:04 INFO  GetByAgeAndPriceView:33 - View - "Get by age and price" was successfully loaded and configurated.
+2020-02-19 18:29:53 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 18:29:57 INFO  Util:30 - Connection to database was established
+2020-02-19 18:29:58 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:29:58 INFO  MainViewController:168 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:29:59 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 18:30:07 INFO  Util:30 - Connection to database was established
+2020-02-19 18:30:07 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:30:07 INFO  MainViewController:135 - The most expansive toys were found.
+2020-02-19 18:30:12 INFO  Util:30 - Connection to database was established
+2020-02-19 18:30:12 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:30:12 INFO  MainViewController:168 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:30:13 INFO  GetByAgeView:34 - View - "Get by age" was successfully loaded and configurated.
+2020-02-19 18:30:15 INFO  EditView:34 - Edit view was successfully loaded and configurated.
+2020-02-19 18:30:15 INFO  Util:30 - Connection to database was established
+2020-02-19 18:30:15 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:30:15 INFO  MainViewController:168 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:39:21 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 18:39:22 INFO  Util:30 - Connection to database was established
+2020-02-19 18:39:22 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:39:22 INFO  MainViewController:177 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:39:22 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 18:40:05 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 18:40:06 INFO  Util:30 - Connection to database was established
+2020-02-19 18:40:07 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:40:07 INFO  MainViewController:178 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:40:07 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 18:40:29 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 18:40:29 INFO  Util:30 - Connection to database was established
+2020-02-19 18:40:30 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:40:30 INFO  MainViewController:178 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:40:30 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 18:41:39 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 18:41:40 INFO  Util:30 - Connection to database was established
+2020-02-19 18:41:40 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:41:40 INFO  MainViewController:179 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:41:40 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 18:41:54 INFO  CreateView:34 - Create view was successfully loaded and configurated.
+2020-02-19 18:41:54 INFO  Util:30 - Connection to database was established
+2020-02-19 18:41:54 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:41:54 INFO  MainViewController:179 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:45:23 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 18:45:24 INFO  Util:30 - Connection to database was established
+2020-02-19 18:45:24 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:45:24 INFO  MainViewController:180 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:45:24 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 18:45:31 INFO  Util:30 - Connection to database was established
+2020-02-19 18:45:31 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:45:31 INFO  MainViewController:136 - The most expansive toys were found.
+2020-02-19 18:45:33 INFO  GetByAgeView:34 - View - "Get by age" was successfully loaded and configurated.
+2020-02-19 18:49:09 ERROR MainView:49 - FXML file "mainView.fxml" did not find.
+2020-02-19 18:49:31 ERROR MainView:49 - FXML file "mainView.fxml" did not find.
+2020-02-19 18:49:53 ERROR MainView:49 - FXML file "mainView.fxml" did not find.
+2020-02-19 18:50:14 ERROR MainView:49 - FXML file "mainView.fxml" did not find.
+2020-02-19 18:50:30 ERROR MainView:49 - FXML file "mainView.fxml" did not find.
+2020-02-19 18:51:10 ERROR MainView:49 - FXML file "mainView.fxml" did not find.
+2020-02-19 18:52:30 ERROR MainView:49 - FXML file "mainView.fxml" did not find.
+/K:/3-%d0%ba%d1%83%d1%80%d1%81%20%d0%9f%d0%b0%d1%80%d1%8b/java/odz/target/classes/mainView.fxml:23
+
+2020-02-19 18:53:07 ERROR MainView:49 - FXML file "mainView.fxml" did not find.
+/K:/3-%d0%ba%d1%83%d1%80%d1%81%20%d0%9f%d0%b0%d1%80%d1%8b/java/odz/target/classes/mainView.fxml:23
+
+2020-02-19 18:54:40 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 18:54:41 INFO  Util:30 - Connection to database was established
+2020-02-19 18:54:41 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:54:41 INFO  MainViewController:180 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:54:42 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 18:55:28 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 18:55:29 INFO  Util:30 - Connection to database was established
+2020-02-19 18:55:29 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 18:55:29 INFO  MainViewController:180 - Toys was got from database and successfully pushed to view table.
+2020-02-19 18:55:30 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:03:41 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:03:42 INFO  Util:30 - Connection to database was established
+2020-02-19 19:03:42 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:03:42 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:03:42 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:04:32 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:04:32 INFO  Util:30 - Connection to database was established
+2020-02-19 19:04:33 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:04:33 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:04:33 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:06:43 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:06:44 INFO  Util:30 - Connection to database was established
+2020-02-19 19:06:44 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:06:44 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:06:44 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:08:59 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:09:00 INFO  Util:30 - Connection to database was established
+2020-02-19 19:09:00 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:09:00 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:09:00 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:09:18 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:09:19 INFO  Util:30 - Connection to database was established
+2020-02-19 19:09:19 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:09:19 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:09:20 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:10:57 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:10:58 INFO  Util:30 - Connection to database was established
+2020-02-19 19:10:58 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:10:58 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:10:59 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:18:31 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:18:32 INFO  Util:30 - Connection to database was established
+2020-02-19 19:18:32 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:18:32 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:18:32 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:18:58 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:18:59 INFO  Util:30 - Connection to database was established
+2020-02-19 19:18:59 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:18:59 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:18:59 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:30:23 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:30:24 INFO  Util:30 - Connection to database was established
+2020-02-19 19:30:24 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:30:24 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:30:24 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:36:27 INFO  DeleteView:34 - Delete view was successfully loaded and configurated.
+2020-02-19 19:36:27 INFO  Util:30 - Connection to database was established
+2020-02-19 19:36:27 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:36:27 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:47:04 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:47:05 INFO  Util:30 - Connection to database was established
+2020-02-19 19:47:05 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:47:05 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:47:05 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:47:13 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:47:14 INFO  Util:30 - Connection to database was established
+2020-02-19 19:47:14 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:47:14 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:47:15 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:47:20 INFO  GetByAgeAndPriceView:33 - View - "Get by age and price" was successfully loaded and configurated.
+2020-02-19 19:48:18 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:48:19 INFO  Util:30 - Connection to database was established
+2020-02-19 19:48:19 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:48:19 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:48:19 INFO  MainView:47 - Main view was successfully loaded and configurated.
+2020-02-19 19:52:13 INFO  Util:20 - Oracle database driver successfully loaded.
+2020-02-19 19:52:14 INFO  Util:30 - Connection to database was established
+2020-02-19 19:52:14 INFO  ToyDAOImpl:177 - Toy list was got successfully.
+2020-02-19 19:52:14 INFO  MainViewController:182 - Toys was got from database and successfully pushed to view table.
+2020-02-19 19:52:15 INFO  MainView:47 - Main view was successfully loaded and configurated.
